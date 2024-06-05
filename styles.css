@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#matrix-container {
+    margin-bottom: 20px;
+}
+
+.matrix-dimension {
+    margin: 5px;
+    display: inline-block;
+}
+
+#matrices-info {
+    margin: 10px 0;
+}
+
+#compatibility-info {
+    margin: 10px 0;
+    font-weight: bold;
+    color: red;
+}
+
+#matrices-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 10px;
+}
+
+td {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+
+input[type="number"] {
+    width: 30px;
+    height: 30px;
+    border: none;
+    text-align: center;
+}
+
+#navigation {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+}
